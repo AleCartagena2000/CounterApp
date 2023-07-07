@@ -1,0 +1,62 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0;
+    background-image: url("../images/marathon.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin: 0.5em 0;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+
+.btn{
+    color: #fff;
+    border: none;
+    padding: 0.75em 1.25em;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+.inc-btn{
+    margin-right: 0.75em;
+    background-color: blue;
+}
+
+.dec-btn{
+    background-color: red;
+}
+
+.save-btn{
+    margin: 1.25em 0 1.5em 0;
+    background-color: forestgreen;
+}
+
+.container{
+    max-width: 400px;
+    margin: 3.5em auto;
+    background-color: lightgray;
+    opacity: 0.9;
+    padding: 1.5em;
+    border-radius: 10px;
+}
